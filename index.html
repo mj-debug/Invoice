@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INVOICE</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <h1>Gemstone Enterprises</h1>
+    <h2>13 Umumuba Street, Aba, Abia State</h2>
+    <p>Sales Invoice</p>
+    <table border="2" style=" width: 80%; border-collapse: collapse;">
+        <tr class="table_head">
+            <th>ID</th>
+            <th>DESCRIPTION</th>
+            <th>QTY</th>
+            <th>PRICE</th>
+            <th>TOTAL</th>
+        </tr>
+        <tr>
+            <td>01</td>
+            <td id="first_item_description"></td>
+            <td id="first_item_quantity"></td>
+            <td id="first_item_price"></td>
+            <td id="first_item_total"></td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td id="second_item_description"></td>
+            <td id="second_item_quantity"></td>
+            <td id="second_item_price"></td>
+            <td id="second_item_total"></td>
+        </tr>
+        <tr>
+            <td>03</td>
+            <td id="third_item_description"></td>
+            <td id="third_item_quantity"></td>
+            <td id="third_item_price"></td>
+            <td id="third_item_total"></td>
+        </tr>
+        <tr>
+            <td>04</td>
+            <td id="fourth_item_description"></td>
+            <td id="fourth_item_quantity"></td>
+            <td id="fourth_item_price"></td>
+            <td id="fourth_item_total"></td>
+        </tr>
+        <tr>
+            <td>05</td>
+            <td id="fifth_item_description"></td>
+            <td id="fifth_item_quantity"></td>
+            <td id="fifth_item_price"></td>
+            <td id="fifth_item_total"></td>
+        </tr>
+        <tr>
+            <td>06</td>
+            <td id="sixth_item_description"></td>
+            <td id="sixth_item_quantity"></td>
+            <td id="sixth_item_price"></td>
+            <td id="sixth_item_total"></td>
+        </tr>
+        <tr>
+            <td>07</td>
+            <td id="seventh_item_description"></td>
+            <td id="seventh_item_quantity"></td>
+            <td id="seventh_item_price"></td>
+            <td id="seventh_item_total"></td>
+        </tr>
+        <tr>
+            <th colspan="4" class="btn"><button onclick="document.getElementById('grand_total').innerHTML = grand_total">Grand Total</button></th>
+            <td id="grand_total" class="grand_t"></td>
+        </tr>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>

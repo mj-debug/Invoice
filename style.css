@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'NotoSans-Regular.ttf';
+    src: url(./fonts/NotoSans-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'NotoSans-Regular.ttf';
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: darkblue;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    color: darkblue;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    color: darkblue;
+}
+table{
+    text-align: center;
+    margin-left: 150px;
+    color: rgb(65, 65, 201);
+    border: 15px;
+    border-color: rgb(65, 65, 201);
+}
+.table_head{
+    background-color: darkblue;
+    color: white;
+}
+.table_head > th{
+    border: none;
+}
+.grand_t{
+    background-color: darkblue;
+    color: white;
+}
+.btn{
+    background-color: darkblue;
+}
+button{
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+}
